@@ -1,3 +1,5 @@
+[toolchain]
+
 [features]
 seeds = false
 skip-lint = false
@@ -10,9 +12,9 @@ solquad = "5sFUqUTjAMJARrEafMX8f4J1LagdUQ9Y8TR8HwGNHkU8"
 [registry]
 url = "https://api.apr.dev"
 
-[provider.localnet]
+[provider]
 cluster = "Localnet"
-wallet = "/home/agathokako/.config/solana/id.json"
+wallet = "~/.config/solana/id.json"
 
 [provider.devnet]
 cluster = "Localnet"
